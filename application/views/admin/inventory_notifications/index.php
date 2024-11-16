@@ -1,22 +1,3 @@
-<!-- Return Alerts -->
-<section>
-    <h2>Return Alerts</h2>
-    <?php if (!empty($return_alerts)): ?>
-        <ul>
-            <?php foreach ($return_alerts as $alert): ?>
-                <li>
-                    Item <strong><?= $alert['item_name']; ?></strong> borrowed by <?= $alert['borrower_name']; ?>
-                    is overdue (Due Date: <?= $alert['due_date']; ?>)
-                </li>
-            <?php endforeach; ?>
-        </ul>
-    <?php else: ?>
-        <p>No overdue tools or materials.</p>
-    <?php endif; ?>
-</section>
-
-
-
 
 <div class="row wrapper border-bottom white-bg page-heading">
     <div class="col-lg-10">
@@ -58,7 +39,7 @@
                 <div class="ibox-content">
                     <div class="row">
                         <div class="col-sm-3">
-                            <form method="post" class="form-horizontal" action="<?php echo base_url('admin/vendor') ?>">
+                            <form method="post" class="form-horizontal" action="<?php echo base_url('admin/inventory_notifications') ?>">
                                 <!-- Error Alert -->
                                 <div class="alert alert-danger text-center" role="alert" id="error_alert"
                                     style="<?php echo ($this->session->flashdata('error_msg')) ? '' : 'display:none;' ?>">
@@ -77,12 +58,7 @@
                                         id="success_msg"><?php echo ($this->session->flashdata('success_msg')) ? $this->session->flashdata('success_msg') : ''; ?></span>
                                 </div>
 
-
-
-                        </div>
-
-                        <div class="col-sm-3">
-                            <div class="form-group">
+                                <div class="form-group">
                                 <label>Pending Requisitions:</label>
                                 <section>
                                     <h2>Pending Requisitions</h2>
@@ -102,6 +78,10 @@
                                 </section>
                             </div>
                         </div>
+
+                        <!-- <div class="col-sm-3">
+                            
+                        </div> -->
 
                         <div class="col-sm-3">
                             <div class="form-group">
@@ -147,7 +127,6 @@
 
                             </div>
                         </div>
-
                         <br>
                         </form>
                     </div>

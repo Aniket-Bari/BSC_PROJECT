@@ -19,6 +19,7 @@ class Quotation extends Admin_Controller {
         $this->load->library('form_validation');
 
         // Define validation rules
+        $this->form_validation->set_rules('quotation_number', 'Quotation Number', 'required');
         $this->form_validation->set_rules('lead_customer_name', 'Lead/Customer Name', 'required');
         $this->form_validation->set_rules('project_amc', 'Project/AMC', 'required');
         $this->form_validation->set_rules('valid_until', 'Valid Until', 'required');
@@ -32,6 +33,7 @@ class Quotation extends Admin_Controller {
         } else {
             // Collect form data
             $data = array(
+                'quotation_number' => $this->input->post('quotation_number'),
                 'lead_customer_name' => $this->input->post('lead_customer_name'),
                 'project_amc' => $this->input->post('project_amc'),
                 'quotation_date' => date('Y-m-d'), // Auto-generated current date

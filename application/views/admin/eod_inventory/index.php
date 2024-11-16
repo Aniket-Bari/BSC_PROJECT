@@ -37,7 +37,7 @@
                 <div class="ibox-content">
                     <div class="row">
                         <div class="col-sm-3">
-                            <form method="post" class="form-horizontal" action="<?php echo base_url('admin/vendor') ?>">
+                            <form method="post" class="form-horizontal" action="<?php echo base_url('admin/eod_inventory') ?>">
                                 <!-- Error Alert -->
                                 <div class="alert alert-danger text-center" role="alert" id="error_alert"
                                     style="<?php echo ($this->session->flashdata('error_msg')) ? '' : 'display:none;' ?>">
@@ -57,25 +57,21 @@
                                 </div>
 
 
-
-                        </div>
-
-                        <div class="col-sm-3">
-                            <div class="form-group">
-                                <label><b class="text-danger">*</b>Technician Name:</label>
-                                <input type="text" name="technician_name" id="technician_name"
-                                    class="form-control <?php echo (form_error('technician_name')) ? 'is-invalid' : '' ?>"
-                                    placeholder="Enter Techician Name"
-                                    value="<?php echo set_value('technician_name'); ?>" readonly required>
-                                <?php echo form_error('technician_name', '<div class="invalid-feedback">', '</div>'); ?>
-                                <!-- <select name="technician_name" id="technician_name"
+                                <div class="form-group">
+                                    <label><b class="text-danger">*</b>Technician Name:</label>
+                                    <input type="text" name="technician_name" id="technician_name"
+                                        class="form-control <?php echo (form_error('technician_name')) ? 'is-invalid' : '' ?>"
+                                        placeholder="Enter Techician Name"
+                                        value="<?php echo set_value('technician_name'); ?>" readonly required>
+                                    <?php echo form_error('technician_name', '<div class="invalid-feedback">', '</div>'); ?>
+                                    <!-- <select name="technician_name" id="technician_name"
                                         class="select2 form-control custom-select" required> -->
-                                <!-- Populate with technician options from database -->
-                                <!-- <?php foreach ($technicians as $technician): ?>
+                                    <!-- Populate with technician options from database -->
+                                    <!-- <?php foreach ($technicians as $technician): ?>
                                             <option value="<?= $technician->id ?>"><?= $technician->name ?></option>
                                         <?php endforeach; ?>
                                     </select> -->
-                            </div>
+                                </div>
                         </div>
 
                         <div class="col-sm-3">
@@ -142,7 +138,7 @@
                                     <option value="Item 4">Item 4</option>
                                 </select>
                                 <?php echo form_error('remaining_items', '<div class="invalid-feedback">', '</div>'); ?>
-                            </div>
+                            </div>  
                         </div>
 
                         <div class="col-sm-3">
