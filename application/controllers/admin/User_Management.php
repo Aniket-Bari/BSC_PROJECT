@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class User_Management extends CI_Controller {
+class User_Management extends Admin_Controller {
 
     public function __construct() {
         parent::__construct();
@@ -11,7 +11,7 @@ class User_Management extends CI_Controller {
 
     public function index() {
         $data['access_rights'] = $this->input->post('access_rights');
-        $this->load->view('admin/user_management/index',$data);
+        $this->loadViews('user_management/index',$data);
     }
 
     public function save_user() {

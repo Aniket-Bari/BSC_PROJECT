@@ -1,14 +1,3 @@
-<link rel="stylesheet" href="/assets/css/style.css">
-<link rel="stylesheet" href="/assets/css/bootstrap.css">
-<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="/assets/css/animate.css">
-<link rel="stylesheet" href="/assets/css/bootstrap.min.css.map">
-<link rel="stylesheet" href="/assets/css/bootstrap.css.map">
-<!-- <link rel="stylesheet" href="/assets/css/plugins"> -->
-<link rel="stylesheet" type="text/css"
-    href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css">
-
-
 <div class="row wrapper border-bottom white-bg page-heading">
     <div class="col-lg-10">
         <h2>Quotation Form</h2>

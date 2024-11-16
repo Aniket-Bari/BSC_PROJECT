@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Quotation extends CI_Controller {
+class Quotation extends Admin_Controller {
 
     public function __construct() {
         parent::__construct();
@@ -11,7 +11,7 @@ class Quotation extends CI_Controller {
 
     public function index() {
         // Load the quotation form view
-        $this->load->view('admin/quotation/index');
+        $this->loadViews('quotation/index');
     }
 
     public function submit() {
