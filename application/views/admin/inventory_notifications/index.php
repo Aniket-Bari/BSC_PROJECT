@@ -78,25 +78,29 @@
                                 </div>
 
 
-                                <div class="form-group">
-                                    <label>Pending Requisitions:</label>
-                                    <section>
-                                        <h2>Pending Requisitions</h2>
-                                        <?php if (!empty($pending_requisitions)): ?>
-                                            <ul>
-                                                <?php foreach ($pending_requisitions as $req): ?>
-                                                    <li>
-                                                        <strong><?= $req['requisition_id']; ?></strong> -
-                                                        <?= $req['description']; ?>
-                                                        (Submitted on: <?= $req['submitted_at']; ?>)
-                                                    </li>
-                                                <?php endforeach; ?>
-                                            </ul>
-                                        <?php else: ?>
-                                            <p>No pending requisitions at the moment.</p>
-                                        <?php endif; ?>
-                                    </section>
-                                </div>
+
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Pending Requisitions:</label>
+                                <section>
+                                    <h2>Pending Requisitions</h2>
+                                    <?php if (!empty($pending_requisitions)): ?>
+                                        <ul>
+                                            <?php foreach ($pending_requisitions as $req): ?>
+                                                <li>
+                                                    <strong><?= $req['requisition_id']; ?></strong> -
+                                                    <?= $req['description']; ?>
+                                                    (Submitted on: <?= $req['submitted_at']; ?>)
+                                                </li>
+                                            <?php endforeach; ?>
+                                        </ul>
+                                    <?php else: ?>
+                                        <p>No pending requisitions at the moment.</p>
+                                    <?php endif; ?>
+                                </section>
+                            </div>
                         </div>
 
                         <div class="col-sm-3">

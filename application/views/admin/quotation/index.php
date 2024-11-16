@@ -58,22 +58,27 @@
                                 </div>
 
 
-                                <div class="form-group">
-                                    <label><b class="text-danger">*</b>Lead/Customer Name:</label>
-                                    <select name="lead_customer_name" id="lead_customer_name" class="select2 form-control custom-select"
-                                        required>
-                                        <option value="">Select Option</option>
-                                        <option value="Lead">Lead</option>
-                                        <option value="Customer">Customer</option>
-                                    </select>
-                                    <?php echo form_error('lead_customer_name', '<div class="invalid-feedback">', '</div>'); ?>
-                                </div>
+
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label><b class="text-danger">*</b>Lead/Customer Name:</label>
+                                <select name="lead_customer_name" id="lead_customer_name"
+                                    class="select2 form-control custom-select" required>
+                                    <option value="">Select Option</option>
+                                    <option value="Lead">Lead</option>
+                                    <option value="Customer">Customer</option>
+                                </select>
+                                <?php echo form_error('lead_customer_name', '<div class="invalid-feedback">', '</div>'); ?>
+                            </div>
                         </div>
 
                         <div class="col-sm-3">
                             <div class="form-group">
                                 <label><b class="text-danger">*</b>Project/AMC:</label>
-                                <select name="project_amc" id="project_amc" class="select2 form-control custom-select" required>
+                                <select name="project_amc" id="project_amc" class="select2 form-control custom-select"
+                                    required>
                                     <option value="">Select Option</option>
                                     <option value="One-time Project">One-time Project</option>
                                     <option value="Recurring AMC">Recurring AMC</option>
@@ -106,7 +111,8 @@
                         <div class="col-sm-3">
                             <div class="form-group">
                                 <label><b class="text-danger">*</b>Item/Service:</label>
-                                <select name="item_service" id="item_service" class="select2 form-control custom-select" multiple required>
+                                <select name="item_service" id="item_service" class="select2 form-control custom-select"
+                                    multiple required>
                                     <option value="">Select Option</option>
                                     <option value="Item 1">Item 1</option>
                                     <option value="Item 2">Item 2</option>
