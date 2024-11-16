@@ -57,12 +57,12 @@
                                         id="success_msg"><?php echo ($this->session->flashdata('success_msg')) ? $this->session->flashdata('success_msg') : ''; ?></span>
                                 </div>
                                 <div class="form-group">
-                                <label><b class="text-danger">*</b>Quotation Number:</label>
-                                <input type="text" name="quotation_number[]" id="quotation_number"
-                                    class="form-control <?php echo (form_error('quotation_number')) ? 'is-invalid' : '' ?>"
-                                    placeholder="Enter Quotation Number" value="<?= uniqid('QN') ?>" readonly>
-                                <?php echo form_error('quotation_number', '<div class="invalid-feedback">', '</div>'); ?>
-                            </div>
+                                    <label><b class="text-danger">*</b>Quotation Number:</label>
+                                    <input type="text" name="quotation_number[]" id="quotation_number"
+                                        class="form-control <?php echo (form_error('quotation_number')) ? 'is-invalid' : '' ?>"
+                                        placeholder="Enter Quotation Number" value="<?= uniqid('QN') ?>" readonly>
+                                    <?php echo form_error('quotation_number', '<div class="invalid-feedback">', '</div>'); ?>
+                                </div>
                         </div>
 
                         <!-- <div class="col-sm-3">

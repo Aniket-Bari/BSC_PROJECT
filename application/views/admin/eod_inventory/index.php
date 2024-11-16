@@ -37,7 +37,8 @@
                 <div class="ibox-content">
                     <div class="row">
                         <div class="col-sm-3">
-                            <form method="post" class="form-horizontal" action="<?php echo base_url('admin/eod_inventory') ?>">
+                            <form method="post" class="form-horizontal"
+                                action="<?php echo base_url('admin/eod_inventory') ?>">
                                 <!-- Error Alert -->
                                 <div class="alert alert-danger text-center" role="alert" id="error_alert"
                                     style="<?php echo ($this->session->flashdata('error_msg')) ? '' : 'display:none;' ?>">
@@ -138,7 +139,7 @@
                                     <option value="Item 4">Item 4</option>
                                 </select>
                                 <?php echo form_error('remaining_items', '<div class="invalid-feedback">', '</div>'); ?>
-                            </div>  
+                            </div>
                         </div>
 
                         <div class="col-sm-3">

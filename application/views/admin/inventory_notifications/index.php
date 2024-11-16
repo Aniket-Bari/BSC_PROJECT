@@ -1,4 +1,3 @@
-
 <div class="row wrapper border-bottom white-bg page-heading">
     <div class="col-lg-10">
         <h2>Inventory Notifications Dashboard</h2>
@@ -39,7 +38,8 @@
                 <div class="ibox-content">
                     <div class="row">
                         <div class="col-sm-3">
-                            <form method="post" class="form-horizontal" action="<?php echo base_url('admin/inventory_notifications') ?>">
+                            <form method="post" class="form-horizontal"
+                                action="<?php echo base_url('admin/inventory_notifications') ?>">
                                 <!-- Error Alert -->
                                 <div class="alert alert-danger text-center" role="alert" id="error_alert"
                                     style="<?php echo ($this->session->flashdata('error_msg')) ? '' : 'display:none;' ?>">
@@ -59,24 +59,24 @@
                                 </div>
 
                                 <div class="form-group">
-                                <label>Pending Requisitions:</label>
-                                <section>
-                                    <h2>Pending Requisitions</h2>
-                                    <?php if (!empty($pending_requisitions)): ?>
-                                        <ul>
-                                            <?php foreach ($pending_requisitions as $req): ?>
-                                                <li>
-                                                    <strong><?= $req['requisition_id']; ?></strong> -
-                                                    <?= $req['description']; ?>
-                                                    (Submitted on: <?= $req['submitted_at']; ?>)
-                                                </li>
-                                            <?php endforeach; ?>
-                                        </ul>
-                                    <?php else: ?>
-                                        <p>No pending requisitions at the moment.</p>
-                                    <?php endif; ?>
-                                </section>
-                            </div>
+                                    <label>Pending Requisitions:</label>
+                                    <section>
+                                        <h2>Pending Requisitions</h2>
+                                        <?php if (!empty($pending_requisitions)): ?>
+                                            <ul>
+                                                <?php foreach ($pending_requisitions as $req): ?>
+                                                    <li>
+                                                        <strong><?= $req['requisition_id']; ?></strong> -
+                                                        <?= $req['description']; ?>
+                                                        (Submitted on: <?= $req['submitted_at']; ?>)
+                                                    </li>
+                                                <?php endforeach; ?>
+                                            </ul>
+                                        <?php else: ?>
+                                            <p>No pending requisitions at the moment.</p>
+                                        <?php endif; ?>
+                                    </section>
+                                </div>
                         </div>
 
                         <!-- <div class="col-sm-3">

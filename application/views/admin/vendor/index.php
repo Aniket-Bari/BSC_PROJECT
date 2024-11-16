@@ -25,7 +25,7 @@
                     <h5 class="card-title">
                         <!-- <?php echo $pageTitle ?> -->
                         Vendors
-                    </h6>&nbsp;&nbsp;&nbsp;&nbsp;<em class="text-danger">(
+                        </h6>&nbsp;&nbsp;&nbsp;&nbsp;<em class="text-danger">(
                             * indicates mandatory fields )</em>
                     </h5>
                     <div class="ibox-tools">
@@ -70,7 +70,8 @@
                         <div class="col-sm-3">
                             <div class="form-group">
                                 <label><b class="text-danger">*</b>Vendor Category:</label>
-                                <select name="vendor_category" id="vendor_category" class="select2 form-control custom-select" required>
+                                <select name="vendor_category" id="vendor_category"
+                                    class="select2 form-control custom-select" required>
                                     <option value="">Select Category</option>
                                     <option value="Equipment Supplier">Equipment Supplier</option>
                                     <option value="Service Contractor">Service Contractor</option>
@@ -138,7 +139,8 @@
                         <!-- Submit and Cancel Buttons -->
                         <div class="col-sm-4 col-sm-offset-2">
                             <div class="form-group">
-                                <button class="btn btn-white" type="button" onclick="window.location.href='<?php echo base_url('admin/Vendor'); ?>'">Cancel</button>
+                                <button class="btn btn-white" type="button"
+                                    onclick="window.location.href='<?php echo base_url('admin/Vendor'); ?>'">Cancel</button>
                                 <button class="btn btn-primary" type="submit">Save</button>
                             </div>
                         </div>
