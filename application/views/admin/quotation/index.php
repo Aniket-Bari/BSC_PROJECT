@@ -18,7 +18,6 @@
     </div>
 </div>
 
-
 <div class="wrapper wrapper-content animated fadeInRight">
     <div class="row">
         <div class="col-lg-12">
@@ -187,21 +186,22 @@
                             </div>
                         </div>
 
-                    </div>
-                    <div class="row">
 
-                        <br>
+
                         <!-- Submit and Cancel Buttons -->
-                        <div class="col-sm-4 col-sm-offset-2">
+                        <div class="col-sm-3">
                             <div class="form-group">
+                                <button class="btn btn-primary" type="submit" >Save</button>
                                 <button class="btn btn-white" type="button"
                                     onclick="window.location.href='<?php echo base_url('admin/Quotation'); ?>'">Cancel</button>
-                                <button class="btn btn-primary" type="submit">Save</button>
+
                             </div>
                         </div>
-                        <br>
-                        </form>
+
                     </div>
+                    <br>
+                    </form>
+
                 </div>
             </div>
         </div>

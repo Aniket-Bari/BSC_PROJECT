@@ -2217,3 +2217,160 @@ ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
 ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
 ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
 ERROR - 2024-11-16 --> 404 Page Not Found: Assets/css
+ERROR - 2024-11-16 --> Severity: Notice --> Undefined variable: pageTitle C:\wamp64\www\bsc.localhost\application\views\admin\vendor\index.php 26
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a7.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a4.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/profile.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/css
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> Severity: Notice --> Undefined variable: pageTitle C:\wamp64\www\bsc.localhost\application\views\admin\quotation\index.php 27
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a7.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a4.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/profile.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/css
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> Severity: Notice --> Undefined variable: pageTitle C:\wamp64\www\bsc.localhost\application\views\admin\toolkit_management\index.php 26
+ERROR - 2024-11-16 --> Severity: Notice --> Undefined variable: technicians C:\wamp64\www\bsc.localhost\application\views\admin\toolkit_management\index.php 70
+ERROR - 2024-11-16 --> Severity: Warning --> Invalid argument supplied for foreach() C:\wamp64\www\bsc.localhost\application\views\admin\toolkit_management\index.php 70
+ERROR - 2024-11-16 --> Severity: Notice --> Undefined variable: inventory_items C:\wamp64\www\bsc.localhost\application\views\admin\toolkit_management\index.php 110
+ERROR - 2024-11-16 --> Severity: Warning --> Invalid argument supplied for foreach() C:\wamp64\www\bsc.localhost\application\views\admin\toolkit_management\index.php 110
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a7.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a4.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/profile.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/css
+ERROR - 2024-11-16 --> Severity: Notice --> Undefined variable: pageTitle C:\wamp64\www\bsc.localhost\application\views\admin\eod_inventory\index.php 26
+ERROR - 2024-11-16 --> Severity: Notice --> Undefined variable: technicians C:\wamp64\www\bsc.localhost\application\views\admin\eod_inventory\index.php 71
+ERROR - 2024-11-16 --> Severity: Warning --> Invalid argument supplied for foreach() C:\wamp64\www\bsc.localhost\application\views\admin\eod_inventory\index.php 71
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a7.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a4.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/profile.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/css
+ERROR - 2024-11-16 --> Severity: Notice --> Undefined variable: pageTitle C:\wamp64\www\bsc.localhost\application\views\admin\inventory_notifications\index.php 26
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a7.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/profile.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a4.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/css
+ERROR - 2024-11-16 --> Severity: Notice --> Undefined variable: pageTitle C:\wamp64\www\bsc.localhost\application\views\admin\vendor\index.php 26
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a7.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a4.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/profile.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/css
+ERROR - 2024-11-16 --> Severity: Notice --> Undefined variable: pageTitle C:\wamp64\www\bsc.localhost\application\views\admin\quotation\index.php 27
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a7.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a4.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/profile.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/css
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> Severity: Notice --> Undefined variable: pageTitle C:\wamp64\www\bsc.localhost\application\views\admin\toolkit_management\index.php 26
+ERROR - 2024-11-16 --> Severity: Notice --> Undefined variable: technicians C:\wamp64\www\bsc.localhost\application\views\admin\toolkit_management\index.php 70
+ERROR - 2024-11-16 --> Severity: Warning --> Invalid argument supplied for foreach() C:\wamp64\www\bsc.localhost\application\views\admin\toolkit_management\index.php 70
+ERROR - 2024-11-16 --> Severity: Notice --> Undefined variable: inventory_items C:\wamp64\www\bsc.localhost\application\views\admin\toolkit_management\index.php 110
+ERROR - 2024-11-16 --> Severity: Warning --> Invalid argument supplied for foreach() C:\wamp64\www\bsc.localhost\application\views\admin\toolkit_management\index.php 110
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a7.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a4.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/profile.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/css
+ERROR - 2024-11-16 --> Severity: Notice --> Undefined variable: pageTitle C:\wamp64\www\bsc.localhost\application\views\admin\eod_inventory\index.php 26
+ERROR - 2024-11-16 --> Severity: Notice --> Undefined variable: technicians C:\wamp64\www\bsc.localhost\application\views\admin\eod_inventory\index.php 71
+ERROR - 2024-11-16 --> Severity: Warning --> Invalid argument supplied for foreach() C:\wamp64\www\bsc.localhost\application\views\admin\eod_inventory\index.php 71
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a7.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a4.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/profile.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/css
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> Severity: Notice --> Undefined variable: pageTitle C:\wamp64\www\bsc.localhost\application\views\admin\inventory_notifications\index.php 26
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a7.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a4.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/profile.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/css
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> Severity: Notice --> Undefined variable: pageTitle C:\wamp64\www\bsc.localhost\application\views\admin\quotation\index.php 27
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a4.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/profile.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/css
+ERROR - 2024-11-16 --> Severity: Compile Error --> Cannot declare class vendor, because the name is already in use C:\wamp64\www\bsc.localhost\application\controllers\admin\Vendor.php 0
+ERROR - 2024-11-16 --> Severity: Compile Error --> Cannot declare class vendor, because the name is already in use C:\wamp64\www\bsc.localhost\application\controllers\admin\Vendor.php 0
+ERROR - 2024-11-16 --> Severity: Notice --> Undefined variable: pageTitle C:\wamp64\www\bsc.localhost\application\views\admin\vendor\index.php 26
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a7.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a4.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/profile.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/css
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Faviconico/index
+ERROR - 2024-11-16 --> Severity: Notice --> Undefined variable: pageTitle C:\wamp64\www\bsc.localhost\application\views\admin\vendor\index.php 26
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a4.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/a7.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: admin/Img/profile.jpg
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/css
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Assets/img
+ERROR - 2024-11-16 --> 404 Page Not Found: Faviconico/index

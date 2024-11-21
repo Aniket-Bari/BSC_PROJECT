@@ -57,7 +57,6 @@
                                         id="success_msg"><?php echo ($this->session->flashdata('success_msg')) ? $this->session->flashdata('success_msg') : ''; ?></span>
                                 </div>
 
-
                                 <div class="form-group">
                                     <label><b class="text-danger">*</b>Technician Name:</label>
                                     <input type="text" name="technician_name" id="technician_name"
@@ -74,8 +73,6 @@
                                     </select> -->
                                 </div>
                         </div>
-
-
 
                         <div class="col-sm-3">
                             <div class="form-group">
@@ -140,7 +137,6 @@
                             </div>
                         </div>
 
-
                         <div class="col-sm-3">
                             <div class="form-group">
                                 <label><b class="text-danger">*</b>Current Status:</label>
@@ -156,11 +152,12 @@
 
                         <br>
                         <!-- Submit and Cancel Buttons -->
-                        <div class="col-sm-4 col-sm-offset-2">
+                        <div class="col-sm-3">
                             <div class="form-group">
-                                <button class="btn btn-white" type="button"
-                                    onclick="window.location.href='<?php echo base_url('admin/Vendor'); ?>'">Cancel</button>
                                 <button class="btn btn-primary" type="submit">Save</button>
+                                <button class="btn btn-white" type="button" 
+                                    onclick="window.location.href='<?php echo base_url('admin/Toolkit_Management'); ?>'">Cancel</button>
+                                
                             </div>
                         </div>
                         <br>

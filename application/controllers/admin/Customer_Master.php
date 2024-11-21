@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Customer extends Admin_Controller
+class Customer_Master extends Admin_Controller
 {
 
 	function __construct()
@@ -14,8 +14,8 @@ class Customer extends Admin_Controller
 	{
 		try {
 			$this->hasAccess('customer');
-			$data['pageTitle'] = 'customers';
-			$this->loadViews('customer/index', $data);
+			$data['pageTitle'] = 'Customer Master';
+			$this->loadViews('customer_master/index', $data);
 		} catch (Exception $e) {
 			log_message('error', $e->getMessage());
 			return;
@@ -32,17 +32,17 @@ class Customer extends Admin_Controller
 
 			if ($tab == 'active_rows') {
 				$conditions['where'] = ['cm.status' => 'ACTIVE', 'cm.is_deleted' => 'NO'];
-				$base_url = base_url() . 'admin/Customer/ajax/active_rows';
+				$base_url = base_url() . 'admin/Customer_Master/ajax/active_rows';
 				$searchFilter = 'searchFilter';
 				$data['ajax_view_id'] = '';
 			} else if ($tab == 'inactive_rows') {
 				$conditions['where'] = ['cm.status' => 'INACTIVE', 'cm.is_deleted' => 'NO'];
-				$base_url = base_url() . 'admin/Customer/ajax/inactive_rows';
+				$base_url = base_url() . 'admin/Customer_Master/ajax/inactive_rows';
 				$searchFilter = 'searchFilter1';
 				$data['ajax_view_id'] = '1';
 			} else if ($tab == 'suspend_rows') {
 				$conditions['where'] = ['cm.is_deleted' => 'YES'];
-				$base_url = base_url() . 'admin/Customer/ajax/suspend_rows';
+				$base_url = base_url() . 'admin/Customer_Master/ajax/suspend_rows';
 				$searchFilter = 'searchFilter2';
 				$data['ajax_view_id'] = '2';
 			}
@@ -104,7 +104,7 @@ class Customer extends Admin_Controller
 			$config['num_tag_close'] = '</a></li>';
 			$this->ajax_pagination->initialize($config);
 
-			$this->load->view('admin/customer/ajax_rows', $data);
+			$this->load->view('admin/customer_master/ajax_rows', $data);
 		} catch (Exception $e) {
 			log_message('error', $e->getMessage());
 			return;
@@ -114,14 +114,14 @@ class Customer extends Admin_Controller
 	public function view($customer_id)
 	{
 		try {
-			$this->hasAccess('customer/view');
+			$this->hasAccess('customer_master/view');
 
 
 
 			$data['p_record'] = $this->Admin_model->getRow('customer_masters cm', 'st.states,cm.*,s1.user_name as createdby,s2.user_name as updatedby', ['join' => [['state_type st', "cm.state_id = st.state_code", 'left'], ['hrm_user s1', 'cm.created_by = s1.user_id', 'left'], ['hrm_user s2', 'cm.updated_by = s2.user_id', 'left']], 'where' => ['cm.customer_id' => $customer_id]]);
 			// print_r($this->db->last_query());exit;
 			$data['pageTitle'] = 'View Customer';
-			$this->loadViews('customer/view', $data);
+			$this->loadViews('customer_master/view', $data);
 		} catch (Exception $e) {
 			log_message('error', $e->getMessage());
 			return;
@@ -131,7 +131,7 @@ class Customer extends Admin_Controller
 	public function add()
 	{
 		try {
-			$this->hasAccess('customer/add');
+			$this->hasAccess('customer_master/add');
 			$this->form_validation->set_rules('customer_name', 'Customer Name', 'trim|required|min_length[4]|max_length[50]');
 			$this->form_validation->set_rules('address', 'Customer Address', 'trim|required');
 			// $this->form_validation->set_rules('contact_person_1','Contact Person 1','trim|required');
@@ -154,7 +154,7 @@ class Customer extends Admin_Controller
 				// print_r($data);exit();
 				// $data['state'] = $this->Admin_model->getRows('state_type', "*", ['where' => ['status' => 'ACTIVE', 'is_deleted' => 'NO']]);
 
-				$this->loadViews('customer/add', $data);
+				$this->loadViews('customer_master/add', $data);
 			} else {
 
 				$insert_data = array(
@@ -205,7 +205,7 @@ class Customer extends Admin_Controller
 
 					$this->addActivity('Added Cutomer');
 					$this->session->set_flashdata('success_msg', 'Customer added successfully');
-					redirect(base_url('admin/Customer'));
+					redirect(base_url('admin/Customer_Master'));
 
 				} else {
 					$this->session->set_flashdata('error_msg', 'Record not saved..!');
@@ -222,7 +222,7 @@ class Customer extends Admin_Controller
 	public function edit($customer_id)
 	{
 		try {
-			$this->hasAccess('customer/edit');
+			$this->hasAccess('customer_master/edit');
 
 			$this->form_validation->set_rules('customer_name', 'Customer Name', 'trim|required|min_length[4]|max_length[50]');
 			$this->form_validation->set_rules('address', 'Customer Address', 'trim|required');
@@ -256,7 +256,7 @@ class Customer extends Admin_Controller
 				$data['city'] = $this->Admin_model->getRows('city_type');
 				$data['country'] = $this->Admin_model->getRows('country_type');
 				$data['state'] = $this->Admin_model->getRows('state_type', 'state_code,states,state_id', ['where' => ['status' => 'ACTIVE', 'is_deleted' => 'NO']]);
-				$this->loadViews('customer/edit', $data);
+				$this->loadViews('customer_master/edit', $data);
 			} else {
 				$edit_customer = array(
 					'customer_name' => $this->input->post('customer_name'),
@@ -312,7 +312,7 @@ class Customer extends Admin_Controller
 					$this->session->set_flashdata('error_msg', 'Some problems occured, please try again.');
 				}
 
-				redirect(base_url('admin/Customer'));
+				redirect(base_url('admin/Customer_Master'));
 			}
 		} catch (Exception $e) {
 			log_message('error', $e->getMessage());
@@ -323,7 +323,7 @@ class Customer extends Admin_Controller
 	public function status($status = 'ACTIVE')
 	{
 		try {
-			if ($this->check_access('customer/edit')) {
+			if ($this->check_access('customer_master/edit')) {
 				$customer_id = $this->input->post('rowId');
 				$status = ($status == 'ACTIVE') ? 'INACTIVE' : 'ACTIVE';
 
@@ -406,7 +406,7 @@ class Customer extends Admin_Controller
 	public function changeChecked($status = "ACTIVE")
 	{
 		try {
-			if ($this->check_access('customer/edit')) {
+			if ($this->check_access('customer_master/edit')) {
 				$customer_ids = $this->input->post('rowIds');
 				$customer_ids = json_decode($customer_ids);
 				$result = 0;
@@ -438,7 +438,7 @@ class Customer extends Admin_Controller
 	public function restore()
 	{
 		try {
-			if ($this->check_access('customer/restore')) {
+			if ($this->check_access('customer_master/restore')) {
 				$customer_id = $this->input->post('rowId');
 				$result = $this->Admin_model->edit('customer_masters', ['is_deleted' => 'NO'], ['customer_id' => $customer_id]);
 				if ($result) {

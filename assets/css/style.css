@@ -621,10 +621,13 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 }
 .btn {
   border-radius: 3px;
+  margin-top: 25px;
 }
+
 .float-e-margins .btn {
   margin-bottom: 5px;
 }
+
 .btn-w-m {
   min-width: 120px;
 }
@@ -8568,3 +8571,6 @@ body.md-skin {
 .loading > .overlay-content > img{
   height:36px;
 } 
+.btnspace{
+  margin-top: 22px;
+}

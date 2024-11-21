@@ -66,33 +66,45 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="<?php echo base_url('admin/Customer') ?>"><i class="fa fa-user"></i> <span
+                        <a href="<?php echo base_url('admin/customer_master') ?>"><i class="fa fa-user"></i> <span
                                 class="nav-label">Customer Master</span></a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url('admin/Vendor') ?>"><i class="fa fa-user"></i> <span
+                        <a href="<?php echo base_url('admin/supplier_master') ?>"><i class="fa fa-user"></i> <span
+                                class="nav-label">Supplier Master</span></a>
+                    </li>
+                    <li>
+                        <a href="<?php echo base_url('admin/hsn_master') ?>"><i class="fa fa-user"></i> <span
+                                class="nav-label">HSN Master</span></a>
+                    </li>
+                    <li>
+                        <a href="<?php echo base_url('admin/product_master') ?>"><i class="fa fa-user"></i> <span
+                                class="nav-label">Product/Spare Part Master</span></a>
+                    </li>
+                    <li>
+                        <a href="<?php echo base_url('admin/vendor') ?>"><i class="fa fa-user"></i> <span
                                 class="nav-label">Vendor Management</span></a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url('admin/Quotation') ?>"><i class="fa fa-user"></i> <span
+                        <a href="<?php echo base_url('admin/quotation') ?>"><i class="fa fa-user"></i> <span
                                 class="nav-label">Quotation Management</span></a>
-                    </li>   
+                    </li>
                     <!-- <li>
-                        <a href="<?php echo base_url('admin/User_Management') ?>"><i class="fa fa-user"></i> <span
+                        <a href="<?php echo base_url('admin/user_management') ?>"><i class="fa fa-user"></i> <span
                                 class="nav-label">User Management</span></a>
                     </li> -->
                     <li>
-                        <a href="<?php echo base_url('admin/Toolkit_Management') ?>"><i class="fa fa-user"></i> <span
+                        <a href="<?php echo base_url('admin/toolkit_management') ?>"><i class="fa fa-user"></i> <span
                                 class="nav-label">Toolkit Management</span></a>
                     </li>
 
                     <li>
-                        <a href="<?php echo base_url('admin/EOD_Inventory') ?>"><i class="fa fa-user"></i> <span
+                        <a href="<?php echo base_url('admin/eod_inventory') ?>"><i class="fa fa-user"></i> <span
                                 class="nav-label">EOD Inventory Management</span></a>
                     </li>
 
                     <li>
-                        <a href="<?php echo base_url('admin/Inventory_Notifications') ?>"><i class="fa fa-user"></i>
+                        <a href="<?php echo base_url('admin/inventory_notifications') ?>"><i class="fa fa-user"></i>
                             <span class="nav-label">Inventory Notifications Management</span></a>
                     </li>
 

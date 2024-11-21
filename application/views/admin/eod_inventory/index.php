@@ -168,9 +168,10 @@
                         <!-- Submit and Cancel Buttons -->
                         <div class="col-sm-4 col-sm-offset-2">
                             <div class="form-group">
-                                <button class="btn btn-white" type="button"
-                                    onclick="window.location.href='<?php echo base_url('admin/Vendor'); ?>'">Cancel</button>
                                 <button class="btn btn-primary" type="submit">Save</button>
+                                <button class="btn btn-white" type="button"
+                                    onclick="window.location.href='<?php echo base_url('admin/EOD_Inventory'); ?>'">Cancel</button>
+
                             </div>
                         </div>
                         <br>
